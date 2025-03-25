@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 2px solid black;
+  font-size: 32px;
+}
+header nav ul {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-grow: 1;
+  padding: 20px;
+}
+main section {
+  height: 400px;
+}
+main .box {
+  position: relative;
+}
+main .box .right-title {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 24px;
+  background: inherit;
+  width: 60%;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  border-top: none;
+  border-right: none;
+}
+main .box p {
+  padding-top: 80px;
+}
+main .box.lorem {
+  border: 2px solid black;
+  padding: 20px;
+  width: 30%;
+  min-width: 250px;
+  text-align: left;
+}
+main .box.lorem h2 {
+  padding: 10px;
+  font-size: 24px;
+  background: lightblue;
+}
+main .box.ipsum {
+  border: 2px solid black;
+  padding: 20px;
+  width: 30%;
+  min-width: 250px;
+  text-align: left;
+}
+main .box.ipsum h2 {
+  padding: 10px;
+  font-size: 24px;
+  background: orange;
+}
+main .box.dolor {
+  border: 2px solid black;
+  padding: 20px;
+  width: 30%;
+  min-width: 250px;
+  text-align: left;
+}
+main .box.dolor h2 {
+  padding: 10px;
+  font-size: 24px;
+  background: lightcoral;
+}
+
+footer {
+  padding: 20px;
+  background: lightgray;
+  text-align: center;
+  font-size: 16px;
+}/*# sourceMappingURL=style.css.map */
